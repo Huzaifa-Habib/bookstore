@@ -1,0 +1,517 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+    max-width:1000px ;
+    min-width: 900px;
+
+}
+                                    /*Navbar  */
+.navbar{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0e193b;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    margin-top: -20px;
+
+
+
+
+}
+
+.logo {
+    color: white;
+    margin-top: 20px;
+    font-family: cursive;
+    text-transform: uppercase; 
+    float: left; 
+    margin-left: 10px;
+ 
+}
+
+.logo h2{
+    display: inline;
+    vertical-align: super;
+    margin-left: 20px;
+   
+}
+
+.list {
+    padding-left: 80px !important;
+}
+
+.list ul{
+    float: left;
+    margin-left: 80px;
+   
+}
+
+.list li{
+    float: left;
+    list-style: none;
+    padding: 10px 20px;
+    display:block !important;
+    position: relative;
+
+}
+
+.drop {
+    display: none;
+    position: absolute;
+    padding: 8px;
+  
+}
+
+
+.cat{
+    color: white;
+    padding-top: 30px !important;
+}
+
+ .cat:hover .drop {
+    color:rebeccapurple;
+    display: block;
+    box-shadow: 4px 4px 4px 4px rgb(219, 219, 219);
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.same{
+    color: white; 
+    padding-top:30px !important ;
+}
+
+
+.search{
+    width: 15%;
+    padding: 10px;
+    border-radius:20px;
+    margin-top: 28px;
+    margin-left: 30px;
+
+    
+    
+}
+
+.se{
+    margin-left: -35px;
+
+}
+
+                                        /*End Of Navbar  */
+
+
+
+.on{
+    color: rgb(64, 206, 128);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 9%;
+    padding-top: 80px;
+}
+
+.intro{
+    background-color: rgb(235, 235, 235);
+    padding-bottom: 30px;
+}
+.intro h1{
+    font-family: cursive;
+    padding-left: 9%;
+    letter-spacing: 0.2em;
+
+}
+
+.lo{
+    padding-left: 9%;
+    font-family: monospace;
+    color: gray;
+    text-align: left;
+
+}
+
+.button{
+    padding: 20px;
+    background-color: rgb(108, 236, 166);
+    margin-left: 9%;
+    margin-top: 80px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 100px;
+    color: white;
+
+}
+
+.button:hover{
+    background-color: white;
+    color: rgb(108, 236, 166);
+    border: 2px solid rgb(108, 236, 166) ;
+}
+
+.intro img{
+    float: right;
+    margin-top: 70px;
+}
+
+
+.book{
+    padding-top: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lr{
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+.text{
+    margin-top: 40px;
+    margin-left: 16%;
+    background-color: rgb(193, 235, 126);
+    padding: 4px;
+    border-radius: 10px;
+
+    
+}
+
+
+.adv{
+    margin-top: 40px;
+    margin-left: 16%;
+    background-color: rgb(215, 235, 126);
+    padding: 4px;
+    border-radius: 10px;
+
+    
+}
+
+
+.his{
+
+    margin-top: 40px;
+    margin-left: 16%;
+    background-color: rgb(87, 201, 191);
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.bio{
+    margin-top: 40px;
+    margin-left: 16%;
+    background-color: rgb(93, 197, 238);
+    padding: 4px;
+    border-radius: 10px;
+
+}
+
+
+.sci{
+
+    margin-top: 40px;
+    margin-left: 16%;
+    background-color: rgb(98, 96, 216);
+    padding: 4px;
+    border-radius: 10px;
+
+}
+
+
+.fan{
+
+    margin-top: 40px;
+    margin-left: 18%;
+    background-color: rgb(208, 119, 243);
+    padding: 4px;
+    border-radius: 10px;
+
+}
+
+.pic span{
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+}
+
+.bookstore{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.about p{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -190px;
+    margin-left: 50%;
+    
+}
+
+.about span{
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: normal;
+}
+
+.bttn{
+
+    padding: 20px;
+    background-color: rgb(108, 236, 166);
+    margin-left: 50%;
+    margin-top: 80px;
+    font-size: 22px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 100px;
+    color: white;
+
+}
+
+
+.bttn:hover{
+    background-color: white;
+    color: rgb(108, 236, 166);
+    border: 2px solid rgb(108, 236, 166) ;
+}
+
+.form{
+    padding-left: 9%;
+}
+.form h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    text-transform: uppercase;
+    color: aqua;
+
+}
+
+.user{
+    width: 40%;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px 3px gray;
+    border: white;
+    background: rgba(182, 181, 181, 0.26);
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+
+.em{
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px gray;
+    border: white;
+    background: rgba(182, 181, 181, 0.26);
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;  
+
+}
+
+.ph{
+    width: 40%;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px 3px gray;
+    border: white;
+    background: rgba(182, 181, 181, 0.26);
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;  
+
+}
+
+.btn{
+    /* padding: 10px 20px 10px 20px; */
+    background-color: rgb(108, 236, 166);
+    margin-left: 20px;
+    margin-top: 80px;
+    font-size: 22px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 100px;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.boo{
+    float: right;
+}
+
+                                /* Footer */
+
+.footer{
+    background-color: rgb(6, 33, 46);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    height: 250px;
+}
+
+.footer h2{
+    padding-top: 30px;
+    margin-left: 4%;
+}
+
+.we{
+    width: 30%;
+    margin-left: 4%;
+}
+
+
+.logos{
+    margin-left: 4%;
+ 
+}
+
+
+
+.address h2{
+    margin-top:-200px;
+    margin-left: 50%;
+  
+}
+
+
+.location{
+    margin-left: 50%;
+
+}
+
+.mapss{
+    margin-left: 72%;
+    margin-top:-200px;
+
+}
+
+.mme{
+    margin-left: 30px;
+    padding-top: 15px;
+
+}
+    
+
+ /* @media only screen and (max-width:300px) {  
+
+    .navbar{
+        width: calc(100vw);
+        position: fixed;
+
+    }
+    .list{
+        position: fixed; 
+        width: 5%;
+        left: 0%;  
+    }
+
+    .list ul{
+        display:none ;
+    }
+
+    }
+
+    .same{
+        color: red;
+        display: block; 
+        display: none;
+    }
+
+    .cat{
+        color: red;
+    }
+
+    .logo h2{
+        margin: -10px;
+    }
+
+    .intro{
+        height: 300px;
+      
+    }
+
+    .cate{
+        margin-top: 400px;
+
+    }
+
+    .pic{
+        display: flex;
+        flex-direction: column;
+        float: left;
+    }
+
+    .about p{
+        margin-top: 30px;
+        margin-left: 2px;
+        text-align: center;
+        overflow: auto;
+    }
+
+    .bttn{
+        margin-left: 90px;
+    }
+
+    .boo{
+        width: 280px;
+        height: 300px;
+        float: left;
+        padding-left: -100px;
+        margin-top: 20px;
+       
+    }
+
+
+    .btn{
+        padding: 10px 50px;
+    }
+
+
+    .footer{
+        height: 330px;
+    }
+    
+
+    .address{
+        margin-top: -325px;
+    }
+
+    .mapss{
+        width: 120px;
+        height: 100px;
+        margin-left:180px;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    
+    
+
+}
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
